@@ -68,7 +68,46 @@ h1, h2 {
     margin-bottom: 20px;
     color: #666;
 }
+/* Why Choose Us Section */
+#why-choose-us {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
 
+#why-choose-us h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#why-choose-us p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.feature {
+    max-width: 250px;
+    text-align: center;
+}
+
+.feature h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    color: #666;
+    font-size: 1em;
+}
 #top-destinations {
     height: 30vh;
     padding: 50px 20px;
